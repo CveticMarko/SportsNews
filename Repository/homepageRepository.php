@@ -82,5 +82,5 @@ class homepageRepository extends DatabaseConnection
         $data=$stmt->fetchAll(PDO::FETCH_ASSOC);
         return $data;
     }
-
+//$ git clone https://github.com/zamalo1/SportsNews
 }
